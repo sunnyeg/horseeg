@@ -27,5 +27,5 @@ if(!localStorage.getItem('name')) {
   myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
 }
 myButton.onclick = function() {
-  setUserName();     //含數名稱
+  setUserName();     //函數名稱
 }
